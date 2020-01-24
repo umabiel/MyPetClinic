@@ -9,12 +9,12 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.2.3.BUILD-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <version>2.2.3.BUILD-20200116.135637-62</version>
+        <relativePath /> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.myterminalart</groupId>
     <artifactId>my-pet-clinic</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>my-pet-clinic</name>
     <description>My Pet Clinic - Spring Boot</description>
 
@@ -73,7 +73,7 @@
         <developerConnection>
             scm:git:https://github.com/umabiel/MyPetClinic.git
         </developerConnection>
-      <tag>my-pet-clinic-0.0.1</tag>
+      <tag>HEAD</tag>
   </scm>
 
 </project>
