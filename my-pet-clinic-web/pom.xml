@@ -9,6 +9,10 @@
 
     <artifactId>my-pet-clinic-web</artifactId>
 
+    <properties>
+        <!-- The main class to start by executing java -jar -->
+        <start-class>com.myterminalart.mypetclinic.MyPetClinicApplication</start-class>
+    </properties>
 
     <dependencies>
         <dependency>
