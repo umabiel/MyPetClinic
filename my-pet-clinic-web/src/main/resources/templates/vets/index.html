@@ -6,5 +6,21 @@
 </head>
 <body>
     <h1 th:text="'Lista de Veterinarios...'">Lista Vets</h1>
+
+    <table>
+        <thead>
+        <th>Id</th>
+        <th>FirstName</th>
+        <th>LastName</th>
+        </thead>
+        <tbody>
+        <tr th:each="vet : ${vets}">
+            <td th:text="${vet.id}">1</td>
+            <td th:text="${vet.firstName}">1</td>
+            <td th:text="${vet.lastName}">1</td>
+        </tr>
+        </tbody>
+
+    </table>
 </body>
 </html>
